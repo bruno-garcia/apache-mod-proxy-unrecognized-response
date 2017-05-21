@@ -5,9 +5,10 @@ A Windows client fails to call a Kestrel server when behind Apache reverse proxy
 
 I was able to reproduce the issue in the following environments:
 Apache: CentOS 7.3 -  httpd-2.4.6-45.el7.centos.4.x86_64
-.NET Code: Windows 10 Pro x64, Version 1607, OS Build: 14393.1198
 
-It's also reproducible when running the .NET Core code on CentOS (as the steps below):
+.NET Core client and server: Windows 10 Pro x64, Version 1607, OS Build: 14393.1198
+
+It's also reproducible when running the .NET Core server on CentOS (as the steps below):
 
 To reproduce it, follow the steps:
 ```bash
